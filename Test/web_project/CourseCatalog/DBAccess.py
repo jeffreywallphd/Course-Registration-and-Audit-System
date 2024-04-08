@@ -1,7 +1,6 @@
 from CourseCatalog.models import Subject, Course
 
 # This file serves as a boiler plate accessor class for the Database. If you don't want to use this class you can access the data directly using Django functionality
-# Documentation is incomplete. Add more functions if necessary
 
 class DBAccess():
 
