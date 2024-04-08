@@ -1,0 +1,49 @@
+# Go to https://app.quickdatabasediagrams.com/#/ and paste the code below to view an ERD for the Course Catalog 
+
+Course # Course Catalog
+- 
+CourseNumber PK int
+Subject FK -< Subject.ID int
+Name nvchar # Ex MIS3200
+Title text # Ex Systems Analysis and Design
+Description text
+Credits text
+
+Subject # Course Catalog
+-
+ID PK int
+Abbrev char(4) #Ex CS, ENG, MIS
+
+Offering # Registrar
+-
+CRN PK int
+CourseNumber FK -< Course.CourseNumber int
+Section string
+Cap int
+Act int
+Rem int
+
+OfferingDays # Registrar
+-
+ID PK int
+Offering FK -< Offering.CRN int
+Days FK -< Days.ID int
+StartTime time
+EndTime time
+
+Days # Registrar
+-
+ID PK int
+Name string # "Monday", "Tuesday"
+Abbrev char(1) # M, T, W, R, F, S, U
+
+Professor # Registrar
+-
+ID PK int
+Name String
+
+
+Teaches # Registrar
+-
+CRN FK -< Offering.CRN int
+ID FK -< Professor.ID int
