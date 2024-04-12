@@ -1,0 +1,51 @@
+**Feature 1:** 
+Student Registration Filtering System (Interest Search)
+
+**User Epic Story 1:** 
+As a member of the student body at Michigan Tech, I would like it to be easier to filter and select classes in accordance with my needs. 
+
+****User Story 1.1:**
+As a college student, I want to be able to easily filter classes based on my degree requirements 
+
+*Acceptance Criteria / Tasks:*
+- The filter should eliminate degree requirements already fulfilled. 
+- Eliminate degree requirements already taken within the university
+- Eliminate degree requirements fulfilled by transfer or AP credits
+- The filter should account for all majors, minors, and concentrations
+- This filter should not include core and HASS requirements (this will be a separate filter)
+- The filter should identify and alert the user of prerequisite courses required for courses
+
+**User Story 1.2:**
+As a college student, I want to be able to easily filter classes based on HAAS/Core interests 
+
+*Acceptance Criteria / Tasks:*
+- The filter should eliminate courses which are unavailable at the time of the student’s registration
+        - Class is full
+        - Class has been taken
+- The filter should identify which requirements each student has yet to fill
+- This should filter by needed core credits first
+- The filter should be easy to navigate and browse through options
+- User-friendly and simple UI
+- The filter should separate HASS classes by category
+        - Social Sciences
+        - Humanities
+        - Arts
+- The filter should identify and alert the user of prerequisite courses required to take specific classes
+
+**User Story 1.3:**
+As a college student, I want to be able to easily filter classes based on timing issues 
+
+*Acceptance Criteria / Tasks:*
+- The system should allow students to filter by day, time, semester, and professor
+- The filers should account for classes overlapping when multiple classes are selected (an error message or symbol shown could be implemented in the schedule display setting made by browse team) 
+- This filter should display all timing options offered for classes
+- Students registering should be able to look at multiple iterations of their possible schedule 
+
+**User Story 1.4:** 
+As a college student, I want to be able to easily filter classes based on professors teaching the class 
+*Acceptance Criteria / Tasks:*
+- The filter should contain all professors
+- The filter should show all classes taught by a specific professor 
+- The filter should be linked to RateMyProfessor to give the user a better idea of the professor and course itself
+
+
