@@ -12,3 +12,6 @@
 - Customizable layout and theme options to suit individual preferences
 
 - Multi-language support for users from diverse linguistic backgrounds
+
+## Picture
+![image](https://github.com/jeffreywallphd/Course-Registration-and-Audit-System/assets/158307049/b501bbfc-1b80-4486-a56a-bd7ef380db75)
