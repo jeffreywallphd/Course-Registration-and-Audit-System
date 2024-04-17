@@ -18,3 +18,8 @@
 - Visual representation of course availability or capacity to help users plan their schedule effectively
 
 - Virtual tour feature for exploring classrooms or lecture halls associated with each course
+
+
+## Picture
+![image](https://github.com/jeffreywallphd/Course-Registration-and-Audit-System/assets/158307049/505c78db-5b3b-4520-89e4-b2a80085a5a4)
+
